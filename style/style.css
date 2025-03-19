@@ -43,6 +43,8 @@
 /* Base */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -104,6 +106,29 @@ ul {
   color: var(--color-prymary-blue);
 }
 
+/*Heder*/
+
+.heder-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.heder-nav {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  gap: 40px;
+  margin: 32px;
+}
+
+.heder-menu {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 56px;
+}
+
 /* Link nav */
 
 .link {
@@ -118,6 +143,18 @@ ul {
 }
 
 /* Hero Section */
+
+.hero-container {
+  max-width: 529px;
+}
+
+.hero-sections {
+  padding: 200px 0px;
+  background-image: url("./../images/hero-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .hero-title {
   color: var(--color-prymary-cyan);
