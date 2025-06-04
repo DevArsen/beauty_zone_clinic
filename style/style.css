@@ -251,3 +251,31 @@ ul {
 .contact-form-text span {
   color: var(--color-prymary-cyan);
 }
+
+/* Contacts section */
+
+.contacts-section {
+  padding: 96px 0;
+}
+
+.contacts-title {
+  margin-bottom: 24px;
+  text-align: center;
+  color: var(--color-prymary-blue);
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  font-size: 18px;
+}
+
+.contacts-link {
+  color: var(--color-prymary-blue);
+}
+
+.contacts-link:hover {
+  color: var(--color-prymary-cyan);
+}
