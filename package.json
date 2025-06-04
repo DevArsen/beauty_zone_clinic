@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "htmlhint \"**/*.html\" && stylelint \"style/**/*.css\""
+    "test": "htmlhint \"**/*.html\" && stylelint \"style/**/*.css\"",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,9 @@
   "devDependencies": {
     "htmlhint": "^1.1.5",
     "stylelint": "^15.10.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.11"
   }
 }

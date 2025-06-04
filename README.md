@@ -8,3 +8,14 @@ This website showcases the services of the Beauty Zone cosmetology clinic. Its g
 2. Open `index.html` in your web browser.
 3. To deploy online, upload the contents to any static web host.
 
+## Contact form server
+
+To send form submissions to an email address you can run a small Node.js server:
+
+```bash
+npm install
+node server.js
+```
+
+Configure SMTP credentials inside `server.js` before running the server.
+
