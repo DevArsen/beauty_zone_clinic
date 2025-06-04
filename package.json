@@ -1,0 +1,17 @@
+{
+  "name": "beauty_zone_clinic",
+  "version": "1.0.0",
+  "description": "Beauty Zone Clinic static site",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "htmlhint \"**/*.html\" && stylelint \"style/**/*.css\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "htmlhint": "^1.1.5",
+    "stylelint": "^15.10.3"
+  }
+}
